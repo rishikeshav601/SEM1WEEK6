@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- u apply different styles for mobile, 
+     tablet, and desktop using media queries -->
+    <style>
+        /* for mobile */
+        body{
+            background-color: burlywood;
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* for tablet */
+        @media( min-width:768px)
+        {
+            body{
+                font-size: 20px;
+                background-color: red;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        /* for destop or pc */
+        @media(min-width:1024px){
+            body{
+                font-size: 30px;
+                background-color: blueviolet;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+   <h1>Different background styles for mobile, tablet, and desktop using media queries</h1>
+</body>
+
+</html>

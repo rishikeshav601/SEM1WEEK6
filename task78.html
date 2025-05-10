@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .column {
+          width: 50%; 
+          padding: 20px;
+          box-sizing: border-box;
+        }
+    
+      
+        @media (max-width: 768px) {
+          .column {
+            width: 100%;
+          }
+        }
+    
+        .a {
+          background-color: #f4a261;
+        }
+    
+        .b {
+          background-color: #2a9d8f;
+          color: white;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <div class="column a">
+            <h2>Left Column</h2>
+            <p>This takes 50% of the container on desktop and 100% on smaller screens.</p>
+          </div>
+          <div class="column b">
+            <h2>Right Column</h2>
+            <p>This takes 50% of the container on desktop and 100% on smaller screens.</p>
+          </div>
+    </div>
+</body>
+</html>
